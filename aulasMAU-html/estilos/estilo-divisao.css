@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+#cabecalho {
+    background-color: #8783D1;
+    color:aliceblue;
+    height: 200px;
+}
+
+#corpo {
+    background-color: #AA9ABA;
+    color: aliceblue;
+    height: 500px;
+}
+
+#rodape {
+    background-color: #BFA4A4;
+    color: aliceblue;
+    height: 200px;
+}
+
+#lateral {
+    background-color: #D1ABAD;
+    color:aliceblue;
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+
+#conteudo {
+    background-color: #E3B9BC;
+    color: aliceblue;
+    height: 100%;
+    width: 70%;
+    float: left;
+
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+}
