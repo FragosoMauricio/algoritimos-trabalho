@@ -16,34 +16,3 @@ for (nome = 0; nome < 1; nome++)
     nome = prompt (`Digite o seu nome:(maior que 3 caracteres):`);
     nome = (nome > 3);
 
-    /*
-  
-  for (;;) {
-    idade = Number(prompt("Digite a idade (entre 0 e 150):"));
-    if (idade >= 0 && idade <= 150) {
-      break;
-    }
-  }
-  
-  for (;;) {
-    salario = Number(prompt("Digite o salário (maior que zero):"));
-    if (salario > 0) {
-      break;
-    }
-  }
-  
-  for (;;) {
-    sexo = prompt("Digite o sexo ('f' ou 'm'):");
-    if (sexo === 'f' || sexo === 'm') {
-      break;
-    }
-  }
-  
-  for (;;) {
-    estadoCivil = prompt("Digite o estado civil ('s', 'c', 'v', 'd'):");
-    if (estadoCivil === 's' || estadoCivil === 'c' || estadoCivil === 'v' || estadoCivil === 'd') {
-      break;
-    }
-  }
-
-  alert(`${nome}, ${idade}, ${salario}, ${sexo}, ${estadoCivil}:`);*/
