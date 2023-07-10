@@ -2,6 +2,7 @@
 
 let resposta = prompt(`Sou bonito?`).toLowerCase().trim();
 
+//semantica
 let respostaNaoSatisfatoria = resposta != `sim` && resposta != `s`;
 
 while (respostaNaoSatisfatoria) {
